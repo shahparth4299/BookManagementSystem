@@ -1,0 +1,35 @@
+mutation createBook(
+    $title: String!,
+    $authorIds: [Int!]!,
+    $publishedDate: String!,
+    $genre: String!,
+    $price: Float!,
+    $language: String!,
+    $summary: String!,
+    $totalPages: Int!
+) {
+    createBook(
+        title: $title,
+        authorIds: $authorIds,
+        publishedDate: $publishedDate,
+        genre: $genre,
+        price: $price,
+        language: $language,
+        summary: $summary,
+        totalPages: $totalPages
+    ) {
+        id
+        title
+        publishedDate
+        genre
+        price
+        language
+        summary
+        totalPages
+        authors {
+            id
+            name
+            details
+        }
+    }
+}

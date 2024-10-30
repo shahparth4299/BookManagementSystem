@@ -1,0 +1,55 @@
+input BookFilterModel {
+    language: String
+    genre: String
+    minPrice: Float
+    maxPrice: Float
+    authorName: String
+    publishedAfterYear: Int
+}
+
+type Query {
+    findAllBooks(filter: BookFilterModel): [Book!]!
+    findBookById(id: Int): Book
+    findAllAuthors: [Author!]!
+    findAuthorById(id: Int): Author
+}
+
+type Mutation {
+    createBook(
+        title: String!,
+        authorIds: [Int!]!,
+        publishedDate: String!
+        genre: String!,
+        price: Float!,
+        language: String!,
+        summary: String!,
+        totalPages: Int!,
+    ): Book!
+
+    createAuthor(
+            name: String!,
+            details: String
+    ): Author!
+
+    deleteBook(id: Int!): Int!
+
+    deleteAuthor(id: Int!): Int!
+}
+
+    type Book {
+        id: Int
+        title: String
+        publishedDate: String
+        genre: String
+        price: Float
+        language: String
+        summary: String
+        totalPages: Int
+        authors: [Author!]!
+    }
+
+    type Author {
+        id: Int
+        name: String
+        details: String
+    }

@@ -1,0 +1,248 @@
+2024-10-30 08:10:39 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h57m17s280ms797µs).
+2024-10-30 13:21:14 [Test worker] INFO  c.a.b.BookManagementApplicationTests - Starting BookManagementApplicationTests using Java 17.0.10 with PID 18612 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:21:14 [Test worker] DEBUG c.a.b.BookManagementApplicationTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:21:14 [Test worker] INFO  c.a.b.BookManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:21:15 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30 13:21:15 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 322 ms. Found 2 JPA repository interfaces.
+2024-10-30 13:21:16 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30 13:21:16 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-30 13:21:16 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-30 13:21:17 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30 13:21:17 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-30 13:21:18 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-10-30 13:21:18 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-30 13:21:23 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-30 13:21:24 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:21:25 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-30 13:21:28 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:21:29 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAuthorById]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:21:30 [Test worker] INFO  o.s.b.a.g.s.GraphQlWebMvcAutoConfiguration - GraphQL endpoint HTTP POST /graphql
+2024-10-30 13:21:30 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-10-30 13:21:31 [Test worker] INFO  c.a.b.BookManagementApplicationTests - Started BookManagementApplicationTests in 17.613 seconds (process running for 19.856)
+2024-10-30 13:21:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:21:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-30 13:21:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-30 13:23:08 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 5820 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:23:08 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:23:08 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:23:11 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:23:12 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:23:12 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 4.093 seconds (process running for 5.843)
+2024-10-30 13:32:10 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 19260 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:32:10 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:32:10 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:32:13 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:32:14 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:32:14 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 4.164 seconds (process running for 6.064)
+2024-10-30 13:33:56 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 12852 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:33:56 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:33:56 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:33:59 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:33:59 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:33:59 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 4.459 seconds (process running for 6.815)
+2024-10-30 13:35:42 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 4728 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:35:42 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:35:42 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:35:44 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:35:45 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:35:45 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 3.975 seconds (process running for 6.027)
+2024-10-30 13:37:00 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 16396 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:37:00 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:37:00 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:37:02 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:37:03 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:37:03 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 4.084 seconds (process running for 6.033)
+2024-10-30 13:37:37 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 5884 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:37:37 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:37:37 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:37:39 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:37:40 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:37:40 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 4.172 seconds (process running for 6.142)
+2024-10-30 13:38:29 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 9808 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:38:29 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:38:29 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:38:32 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:38:32 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:38:33 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 4.28 seconds (process running for 6.194)
+2024-10-30 13:38:44 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 17696 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:38:44 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:38:44 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:38:47 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:38:47 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:38:47 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 3.654 seconds (process running for 5.231)
+2024-10-30 13:40:09 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - Starting BookRepositoryTest using Java 17.0.10 with PID 15180 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:40:09 [Test worker] DEBUG c.a.b.repository.BookRepositoryTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:40:09 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:40:10 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30 13:40:10 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 244 ms. Found 2 JPA repository interfaces.
+2024-10-30 13:40:10 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2024-10-30 13:40:10 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:bc1cc7b7-0842-4387-887c-c63a19f73e53;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-10-30 13:40:11 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30 13:40:11 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-30 13:40:11 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-30 13:40:11 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30 13:40:13 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-30 13:40:13 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:40:14 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - Started BookRepositoryTest in 5.301 seconds (process running for 7.086)
+2024-10-30 13:40:15 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:42:48 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - Starting BookRepositoryTest using Java 17.0.10 with PID 14700 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:42:48 [Test worker] DEBUG c.a.b.repository.BookRepositoryTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:42:48 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:42:48 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30 13:42:49 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 258 ms. Found 2 JPA repository interfaces.
+2024-10-30 13:42:49 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2024-10-30 13:42:49 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:5a22a669-3499-4e29-98b4-6bd4be033336;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-10-30 13:42:49 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30 13:42:49 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-30 13:42:49 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-30 13:42:50 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30 13:42:51 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-30 13:42:51 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:42:52 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - Started BookRepositoryTest in 4.855 seconds (process running for 6.524)
+2024-10-30 13:42:53 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:43:42 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - Starting BookRepositoryTest using Java 17.0.10 with PID 19196 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:43:42 [Test worker] DEBUG c.a.b.repository.BookRepositoryTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:43:42 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:43:43 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30 13:43:43 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 264 ms. Found 2 JPA repository interfaces.
+2024-10-30 13:43:43 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2024-10-30 13:43:43 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:08a642dc-d8b3-4fe9-bc02-b4a07e33bd26;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-10-30 13:43:44 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30 13:43:44 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-30 13:43:44 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-30 13:43:44 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30 13:43:46 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-30 13:43:46 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:43:47 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - Started BookRepositoryTest in 5.043 seconds (process running for 6.696)
+2024-10-30 13:43:47 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:45:29 [Test worker] INFO  c.a.b.BookManagementApplicationTests - Starting BookManagementApplicationTests using Java 17.0.10 with PID 17376 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:45:29 [Test worker] DEBUG c.a.b.BookManagementApplicationTests - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:45:29 [Test worker] INFO  c.a.b.BookManagementApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:45:30 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30 13:45:30 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 240 ms. Found 2 JPA repository interfaces.
+2024-10-30 13:45:31 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30 13:45:31 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-30 13:45:31 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-30 13:45:32 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30 13:45:32 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-30 13:45:32 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-10-30 13:45:32 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-30 13:45:34 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-30 13:45:34 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:45:34 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-30 13:45:35 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:45:35 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAuthorById]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:45:35 [Test worker] INFO  o.s.b.a.g.s.GraphQlWebMvcAutoConfiguration - GraphQL endpoint HTTP POST /graphql
+2024-10-30 13:45:36 [Test worker] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-10-30 13:45:36 [Test worker] INFO  c.a.b.BookManagementApplicationTests - Started BookManagementApplicationTests in 7.114 seconds (process running for 8.808)
+2024-10-30 13:45:36 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:45:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-30 13:45:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-30 13:46:35 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - Starting BookRepositoryTest using Java 17.0.10 with PID 14720 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:46:35 [Test worker] DEBUG c.a.b.repository.BookRepositoryTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:46:35 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:46:35 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30 13:46:35 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 262 ms. Found 2 JPA repository interfaces.
+2024-10-30 13:46:35 [Test worker] INFO  o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2024-10-30 13:46:36 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:bf867944-236f-4ab6-9cbc-cdf64efba7b0;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-10-30 13:46:36 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30 13:46:36 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-30 13:46:36 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-30 13:46:37 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30 13:46:38 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-30 13:46:38 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:46:39 [Test worker] INFO  c.a.b.repository.BookRepositoryTest - Started BookRepositoryTest in 4.793 seconds (process running for 6.529)
+2024-10-30 13:46:39 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 13:46:49 [Test worker] INFO  c.a.b.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.10 with PID 10584 (started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 13:46:49 [Test worker] DEBUG c.a.b.controller.BookControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 13:46:49 [Test worker] INFO  c.a.b.controller.BookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 13:46:51 [Test worker] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 13:46:52 [Test worker] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAllAuthors, findAuthorById], Mutation=[createAuthor, deleteAuthor]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 13:46:52 [Test worker] INFO  c.a.b.controller.BookControllerTest - Started BookControllerTest in 4.035 seconds (process running for 5.741)
+2024-10-30 19:14:57 [restartedMain] INFO  c.a.b.BookManagementApplication - Starting BookManagementApplication using Java 17.0.10 with PID 21292 (C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main\build\classes\java\main started by ADMIN in C:\Users\ADMIN\Desktop\BookManagementSystem\Book-Management-System\bookmanager-backend-main)
+2024-10-30 19:14:57 [restartedMain] DEBUG c.a.b.BookManagementApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-30 19:14:57 [restartedMain] INFO  c.a.b.BookManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-30 19:14:57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-30 19:14:57 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-30 19:14:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-30 19:14:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 238 ms. Found 2 JPA repository interfaces.
+2024-10-30 19:14:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-30 19:14:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-30 19:14:59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-30 19:14:59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-30 19:14:59 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-30 19:14:59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2103 ms
+2024-10-30 19:14:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-30 19:14:59 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-10-30 19:14:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-30 19:14:59 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-10-30 19:15:00 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-30 19:15:00 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-30 19:15:00 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-30 19:15:00 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-30 19:15:02 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-30 19:15:02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-30 19:15:02 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-30 19:15:03 [restartedMain] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema.
+2024-10-30 19:15:03 [restartedMain] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[findAuthorById]}
+	Unmapped registrations: {}
+	Unmapped arguments: {}
+	Skipped types: []
+2024-10-30 19:15:03 [restartedMain] INFO  o.s.b.a.g.s.GraphQlWebMvcAutoConfiguration - GraphQL endpoint HTTP POST /graphql
+2024-10-30 19:15:03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-30 19:15:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-30 19:15:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-30 19:15:03 [restartedMain] INFO  c.a.b.BookManagementApplication - Started BookManagementApplication in 7.074 seconds (process running for 7.665)
+2024-10-30 19:18:05 [http-nio-8080-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-30 19:18:05 [http-nio-8080-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-30 19:18:05 [http-nio-8080-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 37 ms
+2024-10-30 20:04:08 [http-nio-8080-exec-1] INFO  c.a.b.service.AuthorService - Author details null : Parth Shah
+2024-10-30 20:04:24 [http-nio-8080-exec-2] INFO  c.a.b.service.AuthorService - Author details null : Arvind Krishna
+2024-10-30 20:04:37 [http-nio-8080-exec-7] INFO  c.a.b.service.AuthorService - Author details null : Manthan Kansara
+2024-10-30 20:06:07 [http-nio-8080-exec-4] INFO  c.a.b.service.AuthorService - Author details null : Raj
+2024-10-30 20:11:28 [http-nio-8080-exec-4] INFO  c.a.b.service.AuthorService - Author details null : Darshan Mehta

@@ -1,0 +1,17 @@
+query findAllBooks {
+    findAllBooks {
+        id
+        title
+        publishedDate
+        genre
+        price
+        language
+        summary
+        totalPages
+        authors {
+            id
+            name
+            details
+        }
+    }
+}
